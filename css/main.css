@@ -300,6 +300,7 @@ section {
     overflow: hidden;
   }
   .header {
+    z-index: 10;
     z-index: 55;
     position: fixed;
     margin: 0;
@@ -372,7 +373,6 @@ section {
 }
 
 .logo__sab-title {
-  font-family: 'Conv_FuturaLT', serif;
   color: #ffffffb4;
   display: block;
   width: 100%;
@@ -1078,7 +1078,7 @@ section {
   font-family: 'Conv_FuturaLT', sans-serif;
   position: absolute;
   z-index: 2;
-  top: 20%;
+  top: 5%;
   left: 10%;
   max-width: 450px;
   max-height: 250px;
